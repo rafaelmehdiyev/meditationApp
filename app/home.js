@@ -34,8 +34,9 @@ const Home = () => {
                         testID="screensDisplay"
                     >
                         <Welcome userDetails={userDetails ? JSON.parse(userDetails) : null} />
+                        <DailyQuote />
                         <PopularMeditations />
-                        <DailyMeditation/>
+                        <DailyMeditation />
                     </View>
                 </ScrollView>
             </SafeAreaView>
